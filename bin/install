@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+set -ue
+
+docker run -v .:/home/bun/app oven/bun bun i
